@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Café Brasa: cafés especiais torrados na semana, direto do produtor.">
+  <title>Café Brasa | Cafés especiais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#">Café Brasa</a>
+    <nav aria-label="Principal">
+      <a href="#cafes">Cafés</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Café especial torrado na semana, na sua porta.</h1>
+      <p>Grãos selecionados direto do produtor, sem estoque parado.</p>
+      <a class="botao" href="#contato">Pedir meu primeiro pacote</a>
+    </section>
+
+    <section id="cafes" class="secao">
+      <h2>Nossos cafés</h2>
+      <div class="grade">
+        <article class="card"><h3>Clássico</h3><p>Encorpado, notas de chocolate. Ótimo no coador.</p><strong>R$ 32</strong></article>
+        <article class="card"><h3>Floral</h3><p>Acidez suave e aroma de flores. Ideal para métodos filtrados.</p><strong>R$ 45</strong></article>
+        <article class="card"><h3>Espresso</h3><p>Creme denso e final adocicado. Perfeito para espresso e latte.</p><strong>R$ 39</strong></article>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao claro">
+      <h2>Quem somos</h2>
+      <p>Somos uma torrefação pequena. Compramos de produtores parceiros, torramos em lotes pequenos e enviamos em até 48 horas.</p>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Faça seu pedido</h2>
+      <form id="form" class="form">
+        <label>Nome <input name="nome" required></label>
+        <label>WhatsApp <input name="tel" type="tel" required></label>
+        <label>Café
+          <select name="cafe"><option>Clássico</option><option>Floral</option><option>Espresso</option></select>
+        </label>
+        <button class="botao" type="submit">Enviar pelo WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2026 Café Brasa · Página de demonstração feita por Hilquiades</footer>
+  <script src="script.js"></script>
+</body>
+</html>
